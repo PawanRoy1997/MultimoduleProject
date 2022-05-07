@@ -1,20 +1,18 @@
 plugins {
-    id 'com.android.application'
+    id 'com.android.library'
     id 'org.jetbrains.kotlin.android'
 }
 
 android {
-    namespace 'com.example.multimoduleproject'
+    namespace 'com.example.common'
     compileSdk target_sdk
 
     defaultConfig {
-        applicationId "com.example.multimoduleproject"
         minSdk min_sdk
         targetSdk target_sdk
-        versionCode version_code
-        versionName version_name
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles "consumer-rules.pro"
     }
 
     buildTypes {
@@ -37,7 +35,6 @@ dependencies {
     implementation "androidx.core:core-ktx:$android_core_version"
     implementation "androidx.appcompat:appcompat:$android_compat_version"
     implementation "com.google.android.material:material:$android_material_version"
-    implementation "androidx.constraintlayout:constraintlayout:$android_constraint_version"
     testImplementation "junit:junit:$junit_version"
     androidTestImplementation "androidx.test.ext:junit:$junit_ext_version"
     androidTestImplementation "androidx.test.espresso:espresso-core:$expresso_core_version"
