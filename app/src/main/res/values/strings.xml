@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MultimoduleProject</string>
+    <string name="larget_text">Larget Text</string>
+    <string name="medium_test">Medium Text</string>
 </resources>

@@ -7,13 +7,37 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/large_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="@string/larget_text"
         android:textSize="@dimen/large_text_size"
+        app:layout_constraintBottom_toTopOf="@id/medium_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/medium_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/medium_test"
+        android:textSize="@dimen/medium_text_size"
+        app:layout_constraintBottom_toTopOf="@id/small_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/large_text" />
+
+    <TextView
+        android:id="@+id/small_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Small Text"
+        android:textSize="@dimen/small_text_size"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/medium_text" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
