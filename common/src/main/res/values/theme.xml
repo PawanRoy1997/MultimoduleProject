@@ -4,15 +4,27 @@
     <style name="LargeTextView">
         <item name="android:background">#f00</item>
         <item name="android:textColor">#fff</item>
+        <item name="android:text">@string/large_text</item>
+        <item name="android:textSize">@dimen/large_text_size</item>
+        <item name="android:layout_margin">@dimen/large_text_margin</item>
+        <item name="android:padding">@dimen/custom_padding</item>
     </style>
 
     <style name="MediumTextView">
         <item name="android:textColor">#fff</item>
         <item name="android:background">#0f0</item>
+        <item name="android:text">@string/medium_text</item>
+        <item name="android:layout_margin">@dimen/medium_text_margin</item>
+        <item name="android:textSize">@dimen/medium_text_size</item>
+        <item name="android:padding">@dimen/custom_padding</item>
     </style>
 
     <style name="SmallTextView">
         <item name="android:textColor">#fff</item>
         <item name="android:background">#00f</item>
+        <item name="android:text">@string/small_text</item>
+        <item name="android:layout_margin">@dimen/small_text_margin</item>
+        <item name="android:textSize">@dimen/small_text_size</item>
+        <item name="android:padding">@dimen/custom_padding</item>
     </style>
 </resources>
