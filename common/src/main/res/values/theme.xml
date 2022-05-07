@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="LargeTextView">
+        <item name="android:background">#f00</item>
+        <item name="android:textColor">#fff</item>
+    </style>
+
+    <style name="MediumTextView">
+        <item name="android:textColor">#fff</item>
+        <item name="android:background">#0f0</item>
+    </style>
+
+    <style name="SmallTextView">
+        <item name="android:textColor">#fff</item>
+        <item name="android:background">#00f</item>
+    </style>
+</resources>

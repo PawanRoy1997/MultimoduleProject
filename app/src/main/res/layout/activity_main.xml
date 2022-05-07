@@ -8,8 +8,11 @@
 
     <TextView
         android:id="@+id/large_text"
+        style="@style/LargeTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="@dimen/large_text_margin"
+        android:padding="@dimen/custom_padding"
         android:text="@string/larget_text"
         android:textSize="@dimen/large_text_size"
         app:layout_constraintBottom_toTopOf="@id/medium_text"
@@ -20,8 +23,11 @@
 
     <TextView
         android:id="@+id/medium_text"
+        style="@style/MediumTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="@dimen/medium_text_margin"
+        android:padding="@dimen/custom_padding"
         android:text="@string/medium_test"
         android:textSize="@dimen/medium_text_size"
         app:layout_constraintBottom_toTopOf="@id/small_text"
@@ -31,8 +37,11 @@
 
     <TextView
         android:id="@+id/small_text"
+        style="@style/SmallTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="@dimen/small_text_margin"
+        android:padding="@dimen/custom_padding"
         android:text="Small Text"
         android:textSize="@dimen/small_text_size"
         app:layout_constraintBottom_toBottomOf="parent"
