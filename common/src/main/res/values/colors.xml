@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="medium_button_color">#0f0</color>
+    <color name="large_button_color">#f00</color>
+</resources>
