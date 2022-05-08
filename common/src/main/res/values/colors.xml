@@ -2,4 +2,5 @@
 <resources>
     <color name="medium_button_color">#0f0</color>
     <color name="large_button_color">#f00</color>
+    <color name="small_button_color">#00f</color>
 </resources>
