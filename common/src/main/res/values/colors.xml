@@ -3,4 +3,12 @@
     <color name="medium_text_color">#0f0</color>
     <color name="large_text_color">#f00</color>
     <color name="small_text_color">#00f</color>
+
+    <color name="primary_normal">#304ff3</color>
+    <color name="primary_light">#7a7cff</color>
+    <color name="primary_dark">#0026ca</color>
+
+    <color name="secondary_normal">#2f3e9e</color>
+    <color name="secondary_light">#6668d0</color>
+    <color name="secondary_dark">#00186f</color>
 </resources>
