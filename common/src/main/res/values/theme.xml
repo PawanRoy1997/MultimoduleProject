@@ -2,8 +2,7 @@
 <resources>
 
     <style name="LargeTextView">
-        <item name="background">@drawable/large_button_background</item>
-        <item name="android:textColor">@color/large_button_color</item>
+        <item name="android:textColor">@color/large_text_color</item>
         <item name="android:fontFamily">@font/oxygen_bold</item>
         <item name="android:text">@string/large_text</item>
         <item name="android:textSize">@dimen/large_text_size</item>
@@ -12,8 +11,7 @@
     </style>
 
     <style name="MediumTextView">
-        <item name="android:textColor">@color/medium_button_color</item>
-        <item name="android:background">@drawable/medium_button_background</item>
+        <item name="android:textColor">@color/medium_text_color</item>
         <item name="android:fontFamily">@font/oxygen_regular</item>
         <item name="android:text">@string/medium_text</item>
         <item name="android:layout_margin">@dimen/medium_text_margin</item>
@@ -22,8 +20,7 @@
     </style>
 
     <style name="SmallTextView">
-        <item name="android:textColor">#fff</item>
-        <item name="android:background">#00f</item>
+        <item name="android:textColor">@color/small_text_color</item>
         <item name="android:fontFamily">@font/oxygen_light</item>
         <item name="android:text">@string/small_text</item>
         <item name="android:layout_margin">@dimen/small_text_margin</item>

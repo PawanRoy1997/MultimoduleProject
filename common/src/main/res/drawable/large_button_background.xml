@@ -8,5 +8,5 @@
         android:topRightRadius="25dp" />
     <stroke
         android:width="2dp"
-        android:color="@color/large_button_color" />
+        android:color="@color/large_text_color" />
 </shape>

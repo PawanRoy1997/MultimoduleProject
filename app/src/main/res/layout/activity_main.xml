@@ -10,9 +10,8 @@
         android:id="@+id/large_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="@dimen/large_text_size"
-        android:background="@drawable/large_button_background"
-        android:textColor="@color/large_button_color" />
+        android:textColor="@color/large_text_color"
+        android:textSize="@dimen/large_text_size" />
 
     <TextView
         android:id="@+id/medium_text"
@@ -21,10 +20,27 @@
 
     <TextView
         android:id="@+id/small_text"
-        android:background="@drawable/small_button_drawable"
-        android:textColor="@color/small_button_color"
         android:layout_width="wrap_content"
-        android:textSize="@dimen/small_text_size"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textColor="@color/small_text_color"
+        android:textSize="@dimen/small_text_size" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/large_button_background"
+        android:theme="@style/LargeTextView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/medium_button_background"
+        android:theme="@style/MediumTextView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/small_button_drawable"
+        android:theme="@style/SmallTextView" />
 
 </LinearLayout>
