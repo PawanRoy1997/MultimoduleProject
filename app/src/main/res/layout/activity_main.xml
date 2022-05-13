@@ -43,4 +43,11 @@
         android:background="@drawable/small_button_drawable"
         android:theme="@style/SmallTextView" />
 
+    <Button
+        style="@style/MediumTextView"
+        android:id="@+id/transitionActivityButton"
+        android:text="Transition Button Activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
 </LinearLayout>

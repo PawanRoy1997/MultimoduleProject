@@ -127,6 +127,7 @@ class TransitionButton : AppCompatButton {
         when (stopAnimationStyle) {
             StopAnimationStyle.SHAKE -> {
                 currentState = State.ERROR
+                isMorphingInProgress = false
                 startWidthAnimation(initialWidth, object : AnimatorListenerAdapter() {
                     override fun onAnimationEnd(animation: Animator) {
                         text = initialText
@@ -146,6 +147,7 @@ class TransitionButton : AppCompatButton {
             }
             StopAnimationStyle.EXPAND -> {
                 currentState = State.TRANSITION
+                isMorphingInProgress = false
                 startScaleAnimation(object : Animation.AnimationListener {
                     override fun onAnimationStart(animation: Animation?) {}
 
