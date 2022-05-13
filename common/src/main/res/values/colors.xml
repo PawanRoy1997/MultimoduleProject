@@ -11,4 +11,11 @@
     <color name="secondary_normal">#2f3e9e</color>
     <color name="secondary_light">#6668d0</color>
     <color name="secondary_dark">#00186f</color>
+
+    <!--  Transition Button colors  -->
+    <color name="translucent">#6f000000</color>
+    <color name="colorError">#e74c3c</color>
+    <color name="colorLoader">#fff</color>
+    <color name="defaultColor">#fff</color>
+    <color name="defaultLoaderColor">#fff</color>
 </resources>
