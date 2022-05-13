@@ -31,7 +31,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/large_button_background"
-        android:style="@style/LargeTextView" />
+        style="@style/LargeTextView" />
 
     <Button
         android:layout_width="wrap_content"
@@ -50,7 +50,7 @@
     <Button
         style="@style/MediumTextView"
         android:id="@+id/transitionActivityButton"
-        android:text="Transition Button Activity"
+        android:text="@string/transition_button_activity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
