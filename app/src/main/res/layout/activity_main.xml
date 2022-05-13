@@ -7,19 +7,21 @@
     tools:context=".MainActivity">
 
     <TextView
+        style="@style/LargeTextView"
         android:id="@+id/large_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@color/large_text_color"
         android:textSize="@dimen/large_text_size" />
 
     <TextView
+        style="@style/MediumTextView"
         android:id="@+id/medium_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
     <TextView
         android:id="@+id/small_text"
+        style="@style/SmallTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/small_text_color"
@@ -29,15 +31,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/large_button_background"
-        android:theme="@style/LargeTextView" />
+        android:style="@style/LargeTextView" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        style="@style/MediumTextView"
         android:background="@drawable/medium_button_background"
         android:theme="@style/MediumTextView" />
 
     <Button
+        style="@style/SmallTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/small_button_drawable"
