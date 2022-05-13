@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="medium_text_color">#0f0</color>
-    <color name="large_text_color">#f00</color>
+    <color name="medium_text_color">@color/white</color>
+    <color name="large_text_color">#1A237E</color>
     <color name="small_text_color">#00f</color>
 
     <color name="primary_normal">#304ff3</color>
@@ -11,6 +11,13 @@
     <color name="secondary_normal">#2f3e9e</color>
     <color name="secondary_light">#6668d0</color>
     <color name="secondary_dark">#00186f</color>
+
+    <color name="large_text_background">@color/white</color>
+    <color name="medium_text_background">#3949AB</color>
+    <color name="small_text_background">@color/white</color>
+
+    <!--  General Purpose  -->
+    <color name="white">#fff</color>
 
     <!--  Transition Button colors  -->
     <color name="translucent">#6f000000</color>
