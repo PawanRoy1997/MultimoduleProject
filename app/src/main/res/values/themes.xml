@@ -15,5 +15,6 @@
         <!-- Customize your theme here. -->
         <item name="android:textViewStyle">@style/MediumTextView</item>
         <item name="android:buttonStyle">@style/ButtonStyle</item>
+        <item name="civ_border_color">@color/primary_dark</item>
     </style>
 </resources>
