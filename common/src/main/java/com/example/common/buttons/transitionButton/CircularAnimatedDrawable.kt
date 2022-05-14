@@ -16,7 +16,7 @@ private val ANGLE_INTERPOLATOR: Interpolator = LinearInterpolator()
 private val SWEEP_INTERPOLATOR: Interpolator = DecelerateInterpolator()
 
 private const val ANGLE_ANIMATOR_DURATION: Long = 2000
-private const val SWEEP_ANIMATOR_DURATION: Long = 600
+private const val SWEEP_ANIMATOR_DURATION: Long = 700
 
 const val MIN_SWEEP_ANGLE = 30
 private val fBounds = RectF()
