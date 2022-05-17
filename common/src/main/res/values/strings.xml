@@ -3,4 +3,7 @@
     <string name="large_text">Large Text</string>
     <string name="medium_text">Medium Text</string>
     <string name="small_text">Small Text</string>
+    <string name="title">Title</string>
+    <string name="sub_title">Sub Title</string>
+    <string name="description">Description</string>
 </resources>
