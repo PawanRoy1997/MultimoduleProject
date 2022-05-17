@@ -8,10 +8,10 @@
 
     <com.example.common.buttons.transitionButton.TransitionButton
         android:id="@+id/shake_transition_btn"
+        style="@style/MediumTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/shake"
-        style="@style/MediumTextView"
         app:layout_constraintBottom_toTopOf="@id/expand_transition_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -19,13 +19,26 @@
 
     <com.example.common.buttons.transitionButton.TransitionButton
         android:id="@+id/expand_transition_btn"
+        style="@style/MediumTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/expand"
-        style="@style/MediumTextView"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/circularImageViewButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/shake_transition_btn" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/circularImageViewButton"
+        style="@style/SmallTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/circular_imageview"
+        app:cornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/expand_transition_btn" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

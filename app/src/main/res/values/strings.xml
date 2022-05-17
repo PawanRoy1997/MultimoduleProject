@@ -3,4 +3,5 @@
     <string name="shake">Shake</string>
     <string name="expand">Expand</string>
     <string name="transition_button_activity">Transition Button Activity</string>
+    <string name="circular_imageview">Circular ImageView</string>
 </resources>

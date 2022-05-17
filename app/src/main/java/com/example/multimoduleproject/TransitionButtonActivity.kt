@@ -1,18 +1,20 @@
 package com.example.multimoduleproject
 
+import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import androidx.appcompat.app.AppCompatActivity
-import com.example.common.buttons.transitionButton.TransitionButton
 import com.example.common.buttons.transitionButton.TransitionButton.StopAnimationStyle.EXPAND
 import com.example.common.buttons.transitionButton.TransitionButton.StopAnimationStyle.SHAKE
+import com.example.multimoduleproject.databinding.ActivityTransitionButtonBinding
 
 class TransitionButtonActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_transition_button)
+        val binding = ActivityTransitionButtonBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
-        val shakeTransitionButton = findViewById<TransitionButton>(R.id.shake_transition_btn)
+        val shakeTransitionButton = binding.shakeTransitionBtn
         shakeTransitionButton.setOnClickListener {
             shakeTransitionButton.startAnimation()
             Handler().postDelayed({
@@ -22,7 +24,7 @@ class TransitionButtonActivity : AppCompatActivity() {
             }, 3000)
         }
 
-        val expandTransitionButton = findViewById<TransitionButton>(R.id.expand_transition_btn)
+        val expandTransitionButton = binding.expandTransitionBtn
         expandTransitionButton.setOnClickListener {
             expandTransitionButton.startAnimation()
             Handler().postDelayed({
@@ -30,6 +32,12 @@ class TransitionButtonActivity : AppCompatActivity() {
                     EXPAND, null
                 )
             }, 3000)
+        }
+
+        val circularImageView = binding.circularImageViewButton
+        circularImageView.setOnClickListener {
+            startActivity(Intent(this, CircularImageViewActivity::class.java))
+            this.finish()
         }
     }
 }

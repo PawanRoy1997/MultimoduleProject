@@ -31,4 +31,8 @@
     <style name="ButtonStyle">
 
     </style>
+
+    <style name="CircularImageView">
+        <item name="civ_border_color">@color/border_color</item>
+    </style>
 </resources>
